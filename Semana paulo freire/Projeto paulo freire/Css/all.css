@@ -1,0 +1,127 @@
+/* Cores do projeto (use-as como se fossem variaveis) */
+:root{
+    --cor-1-BrancoPuro : #ffffff;
+    --cor-2-CinzaClaro : #6f6f6f;
+    --cor-3-RoxoEscuro : #130224;
+    --cor-4-PretoPuro : #000000;
+    --cor-5-RoxoClaro : #8a94da;
+}
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: var(--cor-1-BrancoPuro);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: montserrat;
+}
+
+/* Barra de navegação */
+nav{
+    text-align: right;
+    width: 100%;
+    height: 4vh;
+    min-height: 52px;
+}
+.li-BarraDeNavegacao{
+    list-style: none;
+    right: 0;
+}
+.li-BarraDeNavegacao li{
+    display: inline-block;
+    margin-top: 1%;
+    margin-right: 2%;
+    font-size: 118%;
+    text-transform: uppercase;
+}
+.li-BarraDeNavegacao li a{
+    text-decoration: none;
+    color: var(--cor-4-PretoPuro);
+}
+.li-BarraDeNavegacao li a:hover{
+    color: var(--cor-5-RoxoClaro);
+    border-bottom: 2px solid var(--cor-5-RoxoClaro);
+    padding-bottom: 4px;
+    transition: 0.2s;
+}
+/* Footer */
+/* Footer */
+/* Containers dos footers */
+.pai-footer{
+    background-color: var(--cor-2-CinzaClaro);
+    display: grid;
+    grid-template-rows: 1fr 4fr 1fr ;
+
+    align-items: center;
+    justify-content: center;
+}
+.pai-footer *{
+    background-color: var(--cor-2-CinzaClaro);
+    color: var(--cor-1-BrancoPuro) ;
+}
+/* main do footer */
+.header-quemSomosNos{
+    justify-self: center;   
+    width: 60%;
+}
+
+.container-footer{
+    height: 200px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    
+}
+.section-equipe{
+    justify-items: center;
+    height: 200px;
+    width: 15%;
+    margin-right: 5%;
+    border-right: white solid 1px;
+}
+.section-equipe:last-child{
+    border-right: none;
+}
+.section-equipe ul{
+    padding-left: 5%;
+}
+
+.footer-copyright{
+    display: grid;
+
+    grid-template-columns: 2fr 1fr;
+
+    height: 60px;
+    width: 100vw;
+    background-color: #1c1c22;
+}
+.footer-copyright *{
+    background-color: #1c1c22;
+}
+
+.footer-copyright span{
+    align-self: center;
+    padding-left: 200px;
+}
+.footer-copyright .icones{
+    display: flex;
+    justify-content: space-around;
+    align-items: center ;
+    justify-self: center;
+    width: 20%;
+    height: 100%;
+    display: flex;
+}
+.icones a{
+    height: 40%;
+
+}
+.icones img{
+    height: 100%;
+}
+
+

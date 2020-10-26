@@ -1,0 +1,147 @@
+/* Organização do banner inicial */
+.containerPai-Bibliografia{
+    width:100%;
+    max-width: 1080px;
+}
+
+.header-banner{
+    position: relative;
+    width: 100%;
+}
+.header-banner img{
+    width: 100vw;
+}
+.header-banner article{
+    width: 55% ;
+
+    display: flex;
+    justify-content: right;
+
+    padding: 2.3%;
+    position: absolute;
+    top: 0%;
+    right: 0;
+    font-family: Bangers;
+    color: var(--cor-1-BrancoPuro);
+    font-size: 700%;
+    border-bottom: solid var(--cor-1-BrancoPuro) 4px;
+
+}
+
+.header-banner-OrganizaTexto{
+    padding-right: 8%;
+}
+/* Texto principal */
+.main-principal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/* Texto 1 */
+#organiza-texto1{
+    min-height:550px ;
+    max-height: 700px;
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding-left: 5%;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+}
+
+.section-texto1{
+    position: relative;
+
+    min-height:550px ;
+    max-height: 600px;
+    height: 50vh;
+    width: 60%;
+
+    display: flex;
+    flex-direction: column;
+
+    align-items: start;
+    justify-content: center;
+    max-width: 1000px;
+
+    font-size: 250%;
+    flex: 1;
+}
+
+.section-texto1 img{
+    position: absolute;
+    width: 15%;
+    right: 0;
+    top: 0;
+
+    flex: 1;
+}
+
+.p-referencia {
+    font-size: 50%;
+    padding-top: 2%;
+    padding-left: 35%;
+
+    font-style: italic;
+}
+/* Texto 2 */
+#organiza-Texto2{
+    min-height: 550px ;
+    max-height: 600px;
+
+    width: 100%;
+    background: var(--cor-3-RoxoEscuro);
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+#organiza-Texto2 > .section-imagem{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+    flex: 1;
+}
+
+.section-texto2{
+    font-family: bangers ;
+
+    min-height:550px ;
+    max-height: 600px;
+    height: 50vh;
+
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+
+    align-items: center;
+    max-width: 1336px;
+
+    font-size: 40px;
+    color: var(--cor-1-BrancoPuro);
+
+    flex: 1 ;
+}
+.section-texto2 cite{
+    text-align: center;
+    font-style: normal;
+    flex: 1 ;
+}
+
+.section-texto2 cite p {
+    margin: 40px 0px 30px 0px;
+
+    flex: 1;    
+}
+.section-texto2 cite span{
+    font-family: 'Kaushan Script';
+    float: right;
+}
+
+
+
