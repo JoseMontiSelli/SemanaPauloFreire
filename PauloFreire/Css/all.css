@@ -23,14 +23,20 @@ body{
 nav{
     display:flex;
     flex-direction: row;
-
     justify-content: right;
     align-items: flex-start;
 
-    text-align: right;
+    font-family: "lora";
+    font-weight: 600;
+    font-size: 2.2rem;
+
     width: 100%;
     height: 4vh;
-    min-height: 52px;
+    min-height: 70px;
+}
+nav a{
+    text-decoration: none;
+    color: var(--cor-4-PretoPuro);
 }
 /* Logo do topo */
 .nav-TopoLogo{
@@ -41,37 +47,66 @@ nav{
     justify-content: center;
 
     width: 20%;
-    background-color: palevioletred;
     height: 100%;
 
     text-align: left;
 }
-.nav-TopoLogo-IconLivro{
 
+.nav-TopoLogo-IconLivro{
+    display: flex;
+    align-items: center;
+    padding-right: 2%;
+
+    height: 100%;
 }
-.nav-TopoLogo-Letreiero{
+
+.nav-TopoLogo-IconLivro img{
+    height: 70%;
+    transform: translateY(-10%);
 }
+
+.nav-TopoLogo-Letreiero a{
+    display: flex;
+    align-items: center;
+
+    height: 100%;
+
+    transition: 0.2s;
+}
+.nav-TopoLogo-Letreiero a:hover{
+    font-size: 110%;
+    color: #8a94da;
+}
+
 
 /* Nav */
-.li-BarraDeNavegacao{
-    list-style: none;
-    right: 0;
+.nav-BarraDeNavegacao{
+
+    display: flex;
+    align-items: center;
+    justify-content: right;
+
     width: 80%;
     height: 100%;
-    background-color: green;
+
+    list-style: none;
+    right: 0;
 }
-.li-BarraDeNavegacao li{
+
+.nav-BarraDeNavegacao li{
+    display: flex;
+
     display: inline-block;
-    margin-top: 1%;
     margin-right: 2%;
-    font-size: 118%;
+    font-size: 65%;
     text-transform: uppercase;
 }
-.li-BarraDeNavegacao li a{
+.nav-BarraDeNavegacao li a{
     text-decoration: none;
     color: var(--cor-4-PretoPuro);
 }
-.li-BarraDeNavegacao li a:hover{
+
+.nav-BarraDeNavegacao li a:hover{
     color: var(--cor-5-RoxoClaro);
     border-bottom: 2px solid var(--cor-5-RoxoClaro);
     padding-bottom: 4px;
@@ -93,12 +128,12 @@ nav{
     color: var(--cor-1-BrancoPuro) ;
 }
 /* main do footer */
-.header-quemSomosNos{
+.footer-header-quemSomosNos{
     justify-self: center;   
     width: 60%;
 }
 
-.container-footer{
+.footer-container-equipes{
     height: 200px;
     width: 100%;
     align-items: center;
@@ -106,17 +141,17 @@ nav{
     display: flex;
     
 }
-.section-equipe{
+.footer-section-equipe{
     justify-items: center;
     height: 200px;
     width: 15%;
     margin-right: 5%;
     border-right: white solid 1px;
 }
-.section-equipe:last-child{
+.footer-section-equipe:last-child{
     border-right: none;
 }
-.section-equipe ul{
+.footer-section-equipe ul{
     padding-left: 5%;
 }
 
@@ -137,7 +172,7 @@ nav{
     align-self: center;
     padding-left: 200px;
 }
-.footer-copyright .icones{
+.footer-copyright .footer-icones{
     display: flex;
     justify-content: space-around;
     align-items: center ;
@@ -146,11 +181,11 @@ nav{
     height: 100%;
     display: flex;
 }
-.icones a{
+.footer-icones a{
     height: 40%;
 
 }
-.icones img{
+.footer-icones img{
     height: 100%;
 }
 

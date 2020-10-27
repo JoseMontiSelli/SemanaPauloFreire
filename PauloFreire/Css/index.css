@@ -102,7 +102,7 @@
     grid-template-columns: 1fr 1fr;
 
 }
-#organiza-Texto2 > .section-imagem{
+#organiza-Texto2 > .img-texto2{
     display: flex;
     flex-direction: column;
     justify-content: center;
