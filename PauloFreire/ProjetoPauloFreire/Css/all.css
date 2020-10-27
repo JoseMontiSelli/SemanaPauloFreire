@@ -21,14 +21,44 @@ body{
 
 /* Barra de navegação */
 nav{
+    display:flex;
+    flex-direction: row;
+
+    justify-content: right;
+    align-items: flex-start;
+
     text-align: right;
     width: 100%;
     height: 4vh;
     min-height: 52px;
 }
+/* Logo do topo */
+.nav-TopoLogo{
+
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    width: 20%;
+    background-color: palevioletred;
+    height: 100%;
+
+    text-align: left;
+}
+.nav-TopoLogo-IconLivro{
+
+}
+.nav-TopoLogo-Letreiero{
+}
+
+/* Nav */
 .li-BarraDeNavegacao{
     list-style: none;
     right: 0;
+    width: 80%;
+    height: 100%;
+    background-color: green;
 }
 .li-BarraDeNavegacao li{
     display: inline-block;
