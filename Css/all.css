@@ -5,6 +5,8 @@
     --cor-3-RoxoEscuro : #130224;
     --cor-4-PretoPuro : #000000;
     --cor-5-RoxoClaro : #8a94da;
+
+    font-size: 60%;
 }
 *{
     padding: 0px;
@@ -28,7 +30,7 @@ nav{
 
     font-family: "lora";
     font-weight: 600;
-    font-size: 2.2rem;
+    font-size: 3.2rem;
 
     width: 100%;
     height: 4vh;
