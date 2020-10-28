@@ -93,16 +93,19 @@ nav a{
 
 /* Nav */
 .nav-BarraDeNavegacao{
-
+    
     display: flex;
     align-items: center;
-    justify-content: right;
-
     width: 80%;
     height: 100%;
-
+    transform: translate(38%);
     list-style: none;
-    right: 0;
+
+    /* regras descartadas */
+    
+    /* justify-content: right; */
+    /* float: right; */
+    /* right: -15%; */
 }
 
 .nav-BarraDeNavegacao li{
@@ -189,41 +192,6 @@ nav a{
     list-style: none;
 }
 
-.footer-copyright{
-    display: grid;
-
-    grid-template-columns: 2fr 1fr;
-
-    height: 60px;
-    width: 100vw;
-    background-color: #1c1c22;
-}
-.footer-copyright *{
-    background-color: #1c1c22;
-}
-
-.footer-copyright span{
-    align-self: center;
-    padding-left: 200px;
-}
-.footer-copyright .footer-icones{
-    display: flex;
-    justify-content: space-around;
-    align-items: center ;
-    justify-self: center;
-    width: 20%;
-    height: 100%;
-    display: flex;
-}
-.footer-icones a{
-    height: 40%;
-    min-width: 50px;
-}
-.footer-icones img{
-    height: 100%;
-}
-
-
 /* Cards do footer */
 .Footer-Design-Item{
     display: flex;
@@ -282,6 +250,43 @@ nav a{
     height: 60%;
     margin-left: 8px;
 }
+
+.footer-copyright{
+    display: grid;
+
+    grid-template-columns: 2fr 1fr;
+
+    height: 60px;
+    width: 100vw;
+    background-color: #1c1c22;
+}
+.footer-copyright *{
+    background-color: #1c1c22;
+}
+
+.footer-copyright span{
+    align-self: center;
+    padding-left: 200px;
+}
+.footer-copyright .footer-icones{
+    display: flex;
+    justify-content: space-around;
+    align-items: center ;
+    justify-self: center;
+    width: 20%;
+    height: 100%;
+    display: flex;
+}
+.footer-icones a{
+    height: 40%;
+    min-width: 50px;
+}
+.footer-icones img{
+    height: 100%;
+}
+
+
+
 
 
 @media(max-width:1280px){
