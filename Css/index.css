@@ -38,31 +38,31 @@
     height: 50vh;
     width: 60%;
     
-
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
 
-    align-items: start;
+    align-items: right;
+    
     justify-content: center;
     max-width: 1000px;
 
     font-size: 3.6rem;
     flex: 1;
 }
+
 .img-texto1{
     display: flex;
     flex-direction: row;
-    justify-content: right;
-    align-items: flex-end;
+    
     width: 100%;
-    flex: 1;
+    flex: 20%;
 }
 
     /* Imagem do texto 1 */
 .img-texto1 img{
     width: 25%;
-    transform: translate(70%, 20%);
+    transform: translate(380%, 10%);
 }
 
 .p-referencia {

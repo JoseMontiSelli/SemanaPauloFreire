@@ -1,0 +1,74 @@
+.container-Pai-Citacoes{
+    width: 100vw;
+    height: 100%;
+
+    color: var(--cor-1-BrancoPuro);
+
+    /* background gradiente para todos os navegadores possiveis */
+    background: #0896ac;
+    background: -moz-linear-gradient(-45deg,  #0896ac 0%, #513abc 100%); 
+    background: -webkit-linear-gradient(-45deg,  #0896ac 0%,#513abc 100%); 
+    background: linear-gradient(135deg,  #0896ac 0%,#513abc 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0896ac', endColorstr='#513abc',GradientType=1 ); 
+}
+
+.texto-Citacoes{
+    width: 100%;
+    height: 100%;
+    padding: 5%;
+}
+/* Card Paulo freire */
+.card-texto-Citacoes{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: white;
+    font-size: 4.5rem;
+
+    height: 100px;
+    width: 400px;
+    border-radius: 60px;
+
+    padding: 6px;
+    transition: 0.2s;
+}
+
+.card-texto-Citacoes:hover{
+    /* height: 110px; */
+    /* font-size: 4.9rem; */
+    transform: scale(1.1)
+}
+
+.card-texto-Citacoes img{
+    height: 95%;
+    justify-self: left;
+}
+
+.card-texto-Citacoes span{
+    color: #053D57;
+
+    width: 60%;
+
+    border-bottom: 5px solid #053D57;
+
+    font-weight: 800;
+
+    margin-left: 3%;
+}
+
+/* Citações  */
+.texto-Citacoes-main{
+    font-size: 3.2rem;
+    padding-right: 22%;
+}
+.texto-Citacoes-main h2{
+    margin-top: 50px;
+}
+
+.texto-Citacoes-main p{
+    margin-top: 40px;
+    transition: 0.2s
+}
+.texto-Citacoes-main p:hover{
+    transform: scale(1.015);
+}
