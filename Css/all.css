@@ -20,7 +20,7 @@ body{
     justify-content: center;
     font-family: montserrat;
 
-    overflow-y: hidden;
+    overflow-x: hidden;
 }
 
 /* Barra de navegação */
