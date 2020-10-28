@@ -19,6 +19,8 @@ body{
     align-items: center;
     justify-content: center;
     font-family: montserrat;
+
+    overflow-y: hidden;
 }
 
 /* Barra de navegação */
@@ -126,27 +128,42 @@ nav a{
 /* Footer */
 /* Containers dos footers */
 .pai-footer{
-    background-color: var(--cor-2-CinzaClaro);
+
+    background: #0896ac;
+    background: -moz-linear-gradient(-45deg,  #0896ac 0%, #513abc 100%); 
+    background: -webkit-linear-gradient(-45deg,  #0896ac 0%,#513abc 100%); 
+    background: linear-gradient(135deg,  #0896ac 0%,#513abc 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0896ac', endColorstr='#513abc',GradientType=1 ); 
+
+
     display: grid;
     grid-template-rows: 1fr 4fr 1fr ;
 
     font-size: 1.6rem;
 
-    align-items: center;
+    align-items: end;
     justify-content: center;
 }
-.pai-footer *{
-    background-color: var(--cor-2-CinzaClaro);
+.pai-footer {
+
+    background: #0896ac;
+    background: -moz-linear-gradient(-45deg,  #0896ac 0%, #513abc 100%); 
+    background: -webkit-linear-gradient(-45deg,  #0896ac 0%,#513abc 100%); 
+    background: linear-gradient(135deg,  #0896ac 0%,#513abc 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0896ac', endColorstr='#513abc',GradientType=1 ); 
+
     color: var(--cor-1-BrancoPuro) ;
 }
 /* main do footer */
 .footer-header-quemSomosNos{
-    justify-self: center;   
-    width: 60%;
+    text-align: center;  
+    min-height: 100px;
+    width: 100%;
 }
 
 .footer-container-equipes{
-    height: 200px;
+    height: 60vh;
+    min-height: 500px;
     width: 100%;
     align-items: center;
     justify-content: center;
@@ -155,16 +172,21 @@ nav a{
 }
 .footer-section-equipe{
     justify-items: center;
-    height: 200px;
-    width: 15%;
+    height: 500px;
+    width: 20%;
     margin-right: 5%;
     border-right: white solid 1px;
+
+    min-width: 280px;
+
+    transform: translateX(25%);
 }
 .footer-section-equipe:last-child{
     border-right: none;
 }
 .footer-section-equipe ul{
-    padding-left: 5%;
+    text-decoration: none;
+    list-style: none;
 }
 
 .footer-copyright{
@@ -195,13 +217,74 @@ nav a{
 }
 .footer-icones a{
     height: 40%;
-
+    min-width: 50px;
 }
 .footer-icones img{
     height: 100%;
 }
 
-@media(max-width:1200px){
+
+/* Cards do footer */
+.Footer-Design-Item{
+    display: flex;
+    align-items: center;
+    
+    width: 243;
+    height: 75px;
+    
+    padding: 2%;
+    border-radius: 5px;
+    margin-bottom: 15px;
+
+    background-color: #3F3F3F;
+    box-shadow: 2px 4px 4px rgba(0, 0, 0,0.25);
+    transition: 0.2s;
+}
+
+.Footer-Design-Item:hover{
+    transform:scale(1.12);
+    background-color: #1b1b1b;
+    border: 1px solid #E9E9E9;
+    box-shadow: 2px 4px 25px rgba(0, 0, 0,0.35) ;
+}
+/* Imagem pessoal */
+.Footer-Design-Item img{
+    height: 100%;
+}
+.Footer-Design-nomeIcon{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
+/* Nome da pessoa */
+.Footer-Design-nomeIcon span{
+    font-family: "lora";
+    text-align: left;
+    transform: translateX(5%);
+    width: 100%;
+    height: 50%;
+    font-size: 2.5rem;
+    /* Impede que o texto e o conteudo seja selecionado */
+    -webkit-user-select: none;
+    -moz-user-select: -moz-none;
+    -ms-user-select: none;
+    user-select: none;
+}
+/* Icones de redes sociais */
+.Footer-Design-NomeIcon-Icon{
+    display: flex;
+    height: 45%;
+    width: 100%;
+}
+.Footer-Design-NomeIcon-Icon img{
+    transform: translate(490%, 65%);
+    height: 60%;
+    margin-left: 8px;
+}
+
+
+@media(max-width:1280px){
     nav{
         font-size: 2rem;
     
@@ -209,9 +292,9 @@ nav a{
         height: 4vh;
         min-height: 70px;
     }
-    .nav-TopoLogo-IconLivro img{
-        height: 60%;
-        transform: translateY(-10%);
+    .footer-section-equipe{
+        width: 25%;
+        transform: translateX(15%);
     }
 }
 
