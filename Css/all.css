@@ -22,6 +22,13 @@ body{
 
     overflow-x: hidden;
 }
+::-webkit-scrollbar {
+    Width: 12px;
+    Display: block;
+}
+::-webkit-scrollbar-thumb{
+    background-color: rgba(81, 58, 188,0.50);
+}
 
 /* Barra de navegação */
 nav{
@@ -102,7 +109,7 @@ nav a{
     list-style: none;
 
     /* regras descartadas */
-    
+
     /* justify-content: right; */
     /* float: right; */
     /* right: -15%; */
@@ -194,6 +201,7 @@ nav a{
 
 /* Cards do footer */
 .Footer-Design-Item{
+
     display: flex;
     align-items: center;
     
@@ -213,7 +221,7 @@ nav a{
     transform:scale(1.12);
     background-color: #1b1b1b;
     border: 1px solid #E9E9E9;
-    box-shadow: 2px 4px 25px rgba(0, 0, 0,0.35) ;
+    box-shadow: 2px 4px 25px rgba(0, 0, 0,0.35);
 }
 /* Imagem pessoal */
 .Footer-Design-Item img{
