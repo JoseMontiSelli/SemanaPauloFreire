@@ -50,6 +50,13 @@
     font-size: 3.6rem;
     flex: 1;
 }
+.section-texto1-texto{
+    transform: translateY(-20%)
+}
+
+.section-texto1-texto h1{
+    margin-bottom: 60px;
+}
 
 .img-texto1{
     display: flex;
