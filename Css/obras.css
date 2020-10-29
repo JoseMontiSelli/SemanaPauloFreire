@@ -1,0 +1,53 @@
+body {
+    /* Fundo da página */
+    background: #0896ac;
+    background: -moz-linear-gradient(-45deg,  #0896ac 0%, #513abc 100%); 
+    background: -webkit-linear-gradient(-45deg,  #0896ac 0%,#513abc 100%); 
+    background: linear-gradient(135deg,  #0896ac 0%,#513abc 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0896ac', endColorstr='#513abc',GradientType=1 );
+}
+div.ObrasBackground {
+    /* Background apenas das obras
+
+    background-image: url(../imgObras/Teste.png);
+    background-size: cover;
+    background: #0896ac;
+    background: -moz-linear-gradient(-45deg,  #0896ac 0%, #513abc 100%); 
+    background: -webkit-linear-gradient(-45deg,  #0896ac 0%,#513abc 100%); 
+    background: linear-gradient(135deg,  #0896ac 0%,#513abc 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0896ac', endColorstr='#513abc',GradientType=1 ); */
+
+    /* Texto da tela */
+    color: white;
+    font-family: Montserrat;
+    font-size: 12pt;
+    text-align: justify;
+}
+h3 {
+    /* Título das obras */
+    text-align: center;
+}
+.ImagemEsquerda {
+    /* Posicionamento da imagem Esquerda*/
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+}
+.ImagemDireita {
+    /* Posicionamento da imagem Direita */
+    padding-right: 20px;
+    padding-top: 20px;
+}
+hr {
+    /* Linha em baixo do título */
+    width: 15%;
+    text-align: left;
+    border-color: white;
+    margin-left: 15px;
+    height: 2px;
+    background-color: white;
+}
+h1 {
+    /* Titulo da página */
+    padding-left: 30px;
+}
