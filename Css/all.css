@@ -22,6 +22,13 @@ body{
 
     overflow-x: hidden;
 }
+
+hr{
+    align-self: center;
+    color: #ffffff;
+    background-color:#ffffff;
+    width: 60%;
+}
 ::-webkit-scrollbar {
     Width: 12px;
     Display: block;
@@ -154,22 +161,14 @@ nav a{
     
     display: grid;
     grid-template-rows: 1fr 4fr 1fr ;
-
+    
+    color: var(--cor-1-BrancoPuro) ;
     font-size: 1.6rem;
-
+    
     align-items: end;
     justify-content: center;
 }
-.pai-footer {
 
-    background: #0896ac;
-    background: -moz-linear-gradient(-45deg,  #0896ac 0%, #513abc 100%); 
-    background: -webkit-linear-gradient(-45deg,  #0896ac 0%,#513abc 100%); 
-    background: linear-gradient(135deg,  #0896ac 0%,#513abc 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0896ac', endColorstr='#513abc',GradientType=1 ); 
-
-    color: var(--cor-1-BrancoPuro) ;
-}
 /* main do footer */
 .footer-header-quemSomosNos{
     margin-top: 50px;
@@ -200,7 +199,7 @@ nav a{
     transform: translateX(25%);
 }
 
-.footer-section-equipe:last-child{
+.footer-section-Equipe:last-child{
     border-right: none;
 }
 

@@ -21,6 +21,9 @@ body{
     background: rgb(8,150,172);
     background: linear-gradient(90deg, rgba(8,150,172,1) -45%, rgba(81,58,188,1) 100%);    
 }
+.pai-footer{
+    background: none !important; 
+}
 
 .Main-Instituto{
     padding: 5%;
@@ -62,12 +65,11 @@ body{
 
 /* Formatação de Texto */
 .tabela-texto{
-    padding: 2%;
+    padding: 2% 5% 0% 0%;
 
     margin: 20px 0px 0px 20px;
     color: var(--Branco);
     font-family: 'Montserrat', sans-serif;
-    text-indent: 20px;
 }
 
 /* CSS Grid */
