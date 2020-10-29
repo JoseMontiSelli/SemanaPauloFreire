@@ -9,6 +9,11 @@
 }
 .header-banner img{
     width: 100%;
+
+    -webkit-user-select: none;
+    -moz-user-select: -moz-none;
+    -ms-user-select: none;
+    user-select: none;
 }
 
 /* Texto principal */
@@ -79,7 +84,6 @@
 
     font-style: italic;
 }
-
 
 /* Texto 2 */
 #organiza-Texto2{

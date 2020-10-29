@@ -4,59 +4,70 @@
     --Branco : #ffffff;
 
 }
-
+.classe-master{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height:100% ;
+}
 
 *{
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
 }
-
-
-
 body{  
-
-    
     background-size: cover;    
     background: rgb(8,150,172);
-    background: linear-gradient(90deg, rgba(8,150,172,1) -45%, rgba(81,58,188,1) 100%);
-   
-    
+    background: linear-gradient(90deg, rgba(8,150,172,1) -45%, rgba(81,58,188,1) 100%);    
+}
+
+.Main-Instituto{
+    padding: 5%;
 }
 
 /* Espaçamento das Tabelas */
 .tabela-2{
+    background-color: rgb(51, 51, 51);
 
-    
+    border-radius: 10px;
+
     font-size: 30px;
-    padding: 0px 0px 0px 0px;
+    padding: 5%;
     text-align: left;
 
-    
+    transition: 0.9s;
+
+    -webkit-user-select: none;
+    -moz-user-select: -moz-none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.tabela-2:hover{
+    transform: scale(105%);
+}
+
+
+.tabela-2  .tabela-texto{
+    font-size: 25px;
+    margin-bottom: 60px;
 }
     
 .tabela-3{
-
-    
     font-size: 25px;
     right: 10px;
     margin: 20px 20px 0px 20px;
-    
-
-
-
 }
 
 /* Formatação de Texto */
 .tabela-texto{
+    padding: 2%;
 
     margin: 20px 0px 0px 20px;
     color: var(--Branco);
     font-family: 'Montserrat', sans-serif;
-    text-indent: 60px;
-
-
-
+    text-indent: 20px;
 }
 
 /* CSS Grid */
@@ -65,7 +76,6 @@ body{
     display: grid;
     grid-template-columns: 1fr 3fr;
     grid-gap: 20px;
-
 
 }
 
