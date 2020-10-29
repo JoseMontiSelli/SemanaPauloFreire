@@ -14,9 +14,11 @@
 /* Imagem do quarto */
 .img_quarto{
 width: 100%;
+border-radius: 100%;
 }
 
 .img_quarto img{
     width: 100%;
+    
 }
 
