@@ -1,3 +1,10 @@
+body{
+    background-size: cover;    
+    background: rgb(8,150,172);
+    background: linear-gradient(90deg, rgba(8,150,172,1) -45%, rgba(81,58,188,1) 100%);    
+}
+
+
 .container-master-metodo{
     display: flex;
     flex-direction: column;
@@ -10,7 +17,7 @@
 }
 
 hr{
-    align-self: center;
+    align-self: center ;
 }
 .container-Metodo-Paulo-Freire{
     width: 100vw;
@@ -19,13 +26,6 @@ hr{
     min-height: 1300px ;
 
     color: var(--cor-1-BrancoPuro);
-
-    /* background gradiente para todos os navegadores possiveis */
-    background: #0896ac;
-    background: -moz-linear-gradient(-45deg,  #0896ac 0%, #513abc 100%); 
-    background: -webkit-linear-gradient(-45deg,  #0896ac 0%,#513abc 100%); 
-    background: linear-gradient(135deg,  #0896ac 0%,#513abc 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0896ac', endColorstr='#513abc',GradientType=1 ); 
 }
 
 .texto-Metodo{
