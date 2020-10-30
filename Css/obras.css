@@ -1,65 +1,97 @@
-body {
-    /* Fundo da página */
-    background: #0896ac;
-    background: -moz-linear-gradient(-45deg,  #0896ac 0%, #513abc 100%); 
-    background: -webkit-linear-gradient(-45deg,  #0896ac 0%,#513abc 100%); 
-    background: linear-gradient(135deg,  #0896ac 0%,#513abc 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0896ac', endColorstr='#513abc',GradientType=1 );
-}
-hr{
-    margin-top: 40px;
-}
+@charset "UTF-8";
 
-.classe-master-Obras{
+:root{
+    --Branco : #ffffff;
+
+}
+.classe-master{
     display: flex;
     flex-direction: column;
-
     width: 100vw;
-    height: 100%;
+    height:100% ;
 }
 
-div.ObrasBackground {
-    /* Background apenas das obras
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{  
+    background-size: cover;    
+    background: rgb(8,150,172);
+    background: linear-gradient(90deg, rgba(8,150,172,1) -45%, rgba(81,58,188,1) 100%);    
+}
+.pai-footer{
+    background: none !important; 
+}
 
-    background-image: url(../imgObras/Teste.png);
-    background-size: cover;
-    background: #0896ac;
-    background: -moz-linear-gradient(-45deg,  #0896ac 0%, #513abc 100%); 
-    background: -webkit-linear-gradient(-45deg,  #0896ac 0%,#513abc 100%); 
-    background: linear-gradient(135deg,  #0896ac 0%,#513abc 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0896ac', endColorstr='#513abc',GradientType=1 ); */
+.Main-Instituto{
+    padding: 5%;
+}
 
-    /* Texto da tela */
-    color: white;
-    font-family: Montserrat;
-    font-size: 12pt;
-    text-align: justify;
-}
-h3 {
-    /* Título das obras */
-    text-align: center;
-}
-.ImagemEsquerda {
-    /* Posicionamento da imagem Esquerda*/
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 20px;
-}
-.ImagemDireita {
-    /* Posicionamento da imagem Direita */
-    padding-right: 20px;
-    padding-top: 20px;
-}
-hr {
-    /* Linha em baixo do título */
-    width: 15%;
+/* Espaçamento das Tabelas */
+.tabela-livros{
+    background-color: rgb(51, 51, 51);
+
+    border-radius: 10px;
+
+    font-size: 30px;
+    padding: 5%;
     text-align: left;
-    border-color: white;
-    margin-left: 15px;
-    height: 2px;
-    background-color: white;
+
+    transition: 0.9s;
+
+    -webkit-user-select: none;
+    -moz-user-select: -moz-none;
+    -ms-user-select: none;
+    user-select: none;
 }
-h1 {
-    /* Titulo da página */
-    padding-left: 30px;
+
+.tabela-livros:hover{
+    transform: scale(105%);
 }
+/* Listagem dos livros */
+.tabela-livros ul{
+    font-size: 20px;
+    color: white;
+    width: 100%;
+    list-style: none;
+    padding: 3%;
+}
+
+.tabela-descricao-livros  .tabela-texto{
+    font-size: 25px;
+    margin-bottom: 60px;
+}
+    
+.tabela-3{
+    font-size: 25px;
+    right: 10px;
+    margin: 20px 20px 0px 20px;
+}
+
+/* Formatação de Texto */
+.tabela-descricao-livros{
+    padding: 2% 5% 0% 0%;
+
+    margin: 20px 0px 0px 20px;
+    color: var(--Branco);
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* CSS Grid */
+.container{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-gap: 20px;
+}
+
+
+
+
+
+
+
+
+
+

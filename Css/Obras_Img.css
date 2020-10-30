@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+/* Formatação de Imagens */
+/* logo */
+.img_logo{
+    display: flex;
+    /* margin: 20px 10px 10px 65px;  */
+    width: 100%;
+}
+.img_logo img{
+    width: 50%;
+    margin: 1%;
+}
+/* Imagem do quarto */
+.img_quarto{
+width: 100%;
+border-radius: 100%;
+}
+
