@@ -319,6 +319,11 @@ nav a{
     height: 100%;
 }
 
+@media(max-width :1800px){
+    .nav-BarraDeNavegacao {
+        transform: translate(20%);
+    }
+}
 
 @media(max-width:1280px){
     nav{
@@ -331,6 +336,11 @@ nav a{
     .footer-section-equipe{
         width: 25%;
         transform: translateX(15%);
+    }
+}
+@media(max-width : 1000px){
+    .nav-BarraDeNavegacao{
+        transform: translateX(5%)
     }
 }
 
