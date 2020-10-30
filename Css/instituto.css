@@ -10,6 +10,9 @@
     width: 100vw;
     height:100% ;
 }
+hr{
+    align-self: center;
+}
 
 *{
     padding: 0px;
@@ -20,6 +23,54 @@ body{
     background-size: cover;    
     background: rgb(8,150,172);
     background: linear-gradient(90deg, rgba(8,150,172,1) -45%, rgba(81,58,188,1) 100%);    
+}
+
+/* Card Obras */
+
+.card-texto-Instituto{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: white;
+    font-size: 4.5rem;
+
+    height: 100px;
+    width: 400px;
+    border-radius: 60px;
+
+    padding: 6px;
+    margin-bottom: 50px;
+    transition: 0.2s;
+}
+.card-texto-Instituto:hover{
+    /* height: 110px; */
+    /* font-size: 4.9rem; */
+    transform: scale(1.1)
+}
+
+.card-texto-Instituto img{
+    height: 95%;
+    justify-self: left;
+}
+
+.card-texto-Instituto span{
+    color: #053D57;
+
+    width: 60%;
+
+    border-bottom: 5px solid #053D57;
+
+    font-weight: 800;
+
+    margin-left: 3%;
+}
+.tabela-2-logo{
+    width: 100%;
+    border: none;
+    display: block;
+    background-color: rgb(228, 228, 228);
+    padding: 5px;
+    border-radius: 15px;
 }
 .pai-footer{
     background: none !important; 

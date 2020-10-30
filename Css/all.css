@@ -8,6 +8,9 @@
 
     font-size: 60%;
 }
+html{
+    scroll-behavior: smooth;
+}
 *{
     padding: 0px;
     margin: 0px;
