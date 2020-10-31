@@ -275,9 +275,10 @@ nav a{
     display: flex;
     height: 45%;
     width: 100%;
+    justify-content: flex-end;
 }
 .Footer-Design-NomeIcon-Icon img{
-    transform: translate(445%, 55%);
+    transform: translate(0%, 55%);
     height: 19px;
     width: 19px;
     margin-left: 8px;
