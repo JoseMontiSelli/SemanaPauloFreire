@@ -15,10 +15,17 @@ body{
 .pai-footer{
     background: none !important; 
 }
-
-hr{
-    align-self: center ;
+.fantasma{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    height: 1px;
+    justify-content: center;
 }
+
+/* hr{
+    align-self: center ;
+} */
 .container-Metodo-Paulo-Freire{
     width: 100vw;
     height: 100%;
